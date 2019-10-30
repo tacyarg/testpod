@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add uWebSockets.js: uNetworking/uWebSockets.js#v16.0.0
+
+PATH: 
+  /root/.vscode-server-insiders/bin/193fead4103363d1a14873bcf38181d97cf611f6/bin:/root/.vscode-server-insiders/bin/193fead4103363d1a14873bcf38181d97cf611f6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: uwebsockets.js:: Invalid URI "uwebsockets.js:/"
+      at Request.module.exports.Request.init (/usr/share/yarn/lib/cli.js:140652:31)
+      at new Request (/usr/share/yarn/lib/cli.js:140506:8)
+      at request (/usr/share/yarn/lib/cli.js:137412:10)
+      at RequestManager.execute (/usr/share/yarn/lib/cli.js:66978:15)
+      at RequestManager.shiftQueue (/usr/share/yarn/lib/cli.js:67016:10)
+      at /usr/share/yarn/lib/cli.js:66695:13
+      at new Promise (<anonymous>)
+      at new F (/usr/share/yarn/lib/cli.js:5301:28)
+      at RequestManager.request (/usr/share/yarn/lib/cli.js:66693:19)
+      at NpmRegistry.<anonymous> (/usr/share/yarn/lib/cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "testpod",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

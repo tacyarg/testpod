@@ -1,0 +1,9 @@
+*.env
+.env
+node_modules
+docker
+env.json
+secrets.json
+prod.json
+dev.json
+env

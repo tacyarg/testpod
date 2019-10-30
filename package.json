@@ -1,0 +1,9 @@
+{
+  "name": "testpod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v16.1.0"
+  }
+}
